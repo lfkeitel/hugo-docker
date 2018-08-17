@@ -2,7 +2,7 @@
 
 **Base Image**: Alpine Edge
 
-**Hugo Version**: 0.46
+**Hugo Version**: 0.47
 
 **Github Repository**: https://github.com/lfkeitel/hugo-docker
 
