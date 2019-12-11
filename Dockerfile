@@ -3,11 +3,11 @@ FROM alpine:edge AS build-hugo
 
 LABEL maintainer="Lee Keitel" \
       name="lfkeitel/hugo" \
-      version="0.52" \
+      version="0.61.0" \
       vcs-type="git" \
       vcs-url="https://github.com/lfkeitel/hugo-docker"
 
-ENV hugo_version=0.52
+ENV hugo_version=0.61.0
 
 RUN apk update \
     && apk add go alpine-sdk git \
